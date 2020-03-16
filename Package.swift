@@ -25,6 +25,6 @@ let package = Package(
         
         .testTarget(
             name: "APICoreTests",
-            dependencies: ["APICore"]),
+            dependencies: ["APICore","Alamofire"]),
     ]
 )
