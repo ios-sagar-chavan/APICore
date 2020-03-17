@@ -17,7 +17,7 @@ open class API {
     
     public static let `default` = API()
     
-    var delegate: APIDelegate?
+    public var delegate: APIDelegate?
     
     open func processApiCall( url : String, method: HTTPMethod, parameters: Dictionary<String, Any>)
     {
