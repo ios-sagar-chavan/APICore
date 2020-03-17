@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-open protocol APIDelegate: AnyObject {
+public protocol APIDelegate: AnyObject {
     
     func didReceiveData(data: Data)
 }
